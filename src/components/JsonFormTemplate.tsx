@@ -17,7 +17,7 @@ function JsonFormTemplate({ heading, schema, uischema, initialData}: Props) {
   // console.log(schema, uischema, initialData);
   return (
     <>
-      <h1>{heading}</h1>
+      <h1 className='heading'>{heading}</h1>
       <JsonForms
         schema={schema}
         uischema={uischema}
