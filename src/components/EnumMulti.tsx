@@ -1,4 +1,4 @@
-import { multiEnumWithLabelAndDesc as example } from '@jsonforms/examples';
+import { multiEnum as example } from '@jsonforms/examples';
 import JsonFormTemplate from './JsonFormTemplate';
 
 const schema = example.schema;

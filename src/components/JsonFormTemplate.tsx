@@ -14,7 +14,6 @@ type Props = {
 
 function JsonFormTemplate({ heading, schema, uischema, initialData}: Props) {
   const [data, setData] = useState(initialData);
-  // console.log(schema, uischema, initialData);
   return (
     <>
       <h1 className='heading'>{heading}</h1>
