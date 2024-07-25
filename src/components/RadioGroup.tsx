@@ -5,10 +5,10 @@ const schema = example.schema;
 const uischema = example.uischema;
 const initialData = example.data;
 
-function Person() {
+function RadioGroup() {
   return (
     <JsonFormTemplate heading='Radio Group' schema={schema} uischema={uischema} initialData={initialData} />
   );
 }
 
-export default Person;
+export default RadioGroup;
