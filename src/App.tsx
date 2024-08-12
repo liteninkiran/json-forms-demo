@@ -4,17 +4,21 @@ import RadioGroup from './components/RadioGroup';
 import Textarea from './components/Textarea';
 import EnumMulti from './components/EnumMulti';
 import Custom from './components/Custom';
+import Enum from './components/Enum';
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
+      <Enum />
+{/*
       <Custom />
-      {/* <EnumMulti /> */}
+      <EnumMulti />
       <Age />
       <Person />
       <RadioGroup />
       <Textarea />
+*/}
     </div>
   );
 }
