@@ -11,9 +11,9 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
-      <ReadOnly />
-{/*
       <Enum />
+{/*
+      <ReadOnly />
       <Custom />
       <EnumMulti />
       <Age />
